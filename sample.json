@@ -1,0 +1,150 @@
+{
+  "books": [
+    
+    {
+      "id": 2,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "price": 450,
+      "image": "https://m.media-amazon.com/images/I/51-uspgqWIL.jpg"
+    },
+    
+    {
+      "id": 4,
+      "title": "The Psychology of Money",
+      "author": "Morgan Housel",
+      "price": 500,
+      "image": "https://m.media-amazon.com/images/I/71g2ednj0JL.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Ikigai",
+      "author": "Héctor García",
+      "price": 280,
+      "image": "https://m.media-amazon.com/images/I/81l3rZK4lnL.jpg"
+    },
+    
+    
+    {
+      "id": 9,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "price": 349,
+      "image": "https://m.media-amazon.com/images/I/71QKQ9mwV7L.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 275,
+      "image": "https://m.media-amazon.com/images/I/71UypkUjStL.jpg"
+    },
+    
+    {
+      "id": 14,
+      "title": "Make Your Bed",
+      "author": "William H. McRaven",
+      "price": 250,
+      "image": "https://m.media-amazon.com/images/I/81bGKUa1e0L.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Mindset",
+      "author": "Carol S. Dweck",
+      "price": 420,
+      "image": "https://m.media-amazon.com/images/I/71Zj9sC5c5L.jpg"
+    },
+    
+    {
+      "id": 18,
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "price": 310,
+      "image": "https://m.media-amazon.com/images/I/81N7FmJhbhL.jpg"
+    },
+    {
+      "id": 19,
+      "title": "Essentialism",
+      "author": "Greg McKeown",
+      "price": 360,
+      "image": "https://m.media-amazon.com/images/I/71MwGfDyayL.jpg"
+    },
+    {
+      "id": 20,
+      "title": "Show Your Work!",
+      "author": "Austin Kleon",
+      "price": 230,
+      "image": "https://m.media-amazon.com/images/I/81fW5QwYJ5L.jpg"
+    },
+    {
+      "id": 21,
+      "title": "Steal Like an Artist",
+      "author": "Austin Kleon",
+      "price": 220,
+      "image": "https://m.media-amazon.com/images/I/61WZP7m6XmL.jpg"
+    },
+    {
+      "id": 22,
+      "title": "Hooked",
+      "author": "Nir Eyal",
+      "price": 420,
+      "image": "https://m.media-amazon.com/images/I/71cl2VvU2kL.jpg"
+    },
+    {
+      "id": 23,
+      "title": "Tools of Titans",
+      "author": "Tim Ferriss",
+      "price": 650,
+      "image": "https://m.media-amazon.com/images/I/81ZZzN+8sML.jpg"
+    },
+    {
+      "id": 24,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "price": 500,
+      "image": "https://m.media-amazon.com/images/I/713jIoMO3UL.jpg"
+    },
+    {
+      "id": 25,
+      "title": "Homo Deus",
+      "author": "Yuval Noah Harari",
+      "price": 520,
+      "image": "https://m.media-amazon.com/images/I/81N-0WzFqBL.jpg"
+    },
+    {
+      "id": 26,
+      "title": "The Intelligent Investor",
+      "author": "Benjamin Graham",
+      "price": 600,
+      "image": "https://m.media-amazon.com/images/I/71UwSHSZRnS.jpg"
+    },
+    {
+      "id": 27,
+      "title": "The Millionaire Fastlane",
+      "author": "MJ DeMarco",
+      "price": 470,
+      "image": "https://m.media-amazon.com/images/I/71MZldjXWOL.jpg"
+    },
+    {
+      "id": 28,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "price": 390,
+      "image": "https://m.media-amazon.com/images/I/81-QB7nDh4L.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Rework",
+      "author": "Jason Fried",
+      "price": 330,
+      "image": "https://m.media-amazon.com/images/I/61McsadO1OL.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Zero to One",
+      "author": "Peter Thiel",
+      "price": 350,
+      "image": "https://m.media-amazon.com/images/I/71m-MxdJ2WL.jpg"
+    }
+  ]
+}

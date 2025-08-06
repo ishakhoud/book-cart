@@ -1,25 +1,55 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from 'react'
+import {Navbar} from './components/Navbar';
+import {Book} from './components/book';
+import Cart from './components/Cart';
+
+
+
+export class App extends Component {
+  constructor(){
+    super();
+    this.state={
+      search:'',
+      cart:[],
+      showCart: false,
+    }
+  }
+     handleSearchChange =(searchTerm)=>{
+      this.setState({search: searchTerm});
+    };
+    handleAddToCart = (book)=>{
+      console.log("Book added to cart:",book);
+      this.setState((prevState)=>({
+        cart:[...prevState.cart, book]
+      }));
+    }
+    handleRemoveFromCart = (bookId)=>{
+      this.setState((prevState)=>({
+        cart: prevState.cart.filter(book => book.id !== bookId)
+      }));
+    }
+    toggleCart =()=>{
+      this.setState((prevState)=>({
+        showCart: !prevState.showCart
+
+      }));
+    }
+  
+  render() {
+    return (
+      <div>
+        <Navbar onSearchChange ={this.handleSearchChange} cartCount={this.state.cart.length} onCartClick={this.toggleCart}/>
+        {this.state.showCart ? (<Cart cartItems ={this.state.cart} onRemoveFromCart={this.handleRemoveFromCart}/>) : (<Book search ={this.state.search} onAddToCart={this.handleAddToCart}/>)}
+  
+      </div>
+    )
+  }
 }
 
 export default App;
+
+
+
